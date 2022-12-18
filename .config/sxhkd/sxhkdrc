@@ -1,0 +1,68 @@
+# Spotify
+mod4 + s
+    kitty -e flatpak run io.github.hrkfdn.ncspot
+# Browser
+mod4 + b
+    firefox
+# File browser
+mod4 + e
+    nautilus
+# Text editor
+mod4 + c
+    code
+# Lock screen
+mod4 + l
+    i3lock -c 000000
+# Multimedia
+XF86AudioPrev
+    playerctl previous
+
+mod4 + F6
+    playerctl previous
+
+XF86AudioPlay
+    playerctl play-pause
+
+mod4 + F7
+    playerctl play-pause
+
+XF86AudioNext
+    playerctl next
+
+mod4 + F8
+    playerctl next
+
+XF86AudioRaiseVolume
+    amixer -D pulse sset Master 2%+
+
+mod4 + F11
+    amixer -D pulse sset Master 2%+
+
+XF86AudioLowerVolume
+    amixer -D pulse sset Master 2%-
+
+mod4 + F10
+    amixer -D pulse sset Master 2%-
+
+XF86AudioMute
+    amixer -D pulse sset Master toggle
+
+mod4 + F10
+    amixer -D pulse sset Master toggle
+
+#set brightness
+
+mod4 + F3
+    brightnessctl set 2%-
+
+mod4 + F4
+    brightnessctl set 2%+
+
+# Screenshot
+Print
+    flameshot full
+
+# Screenshot with GUI
+mod4 + Print
+    flameshot gui
+
