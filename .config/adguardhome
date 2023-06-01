@@ -1,0 +1,11 @@
+#taken from https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/public-resolvers.md
+#Nextdns
+sdns://AgcAAAAAAAAACjQ1LjkwLjMwLjAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQ5kbnMubmV4dGRucy5pbw8vZG5zY3J5cHQtcHJveHk
+#mullvad
+sdns://AgcAAAAAAAAAAAAPZG9oLm11bGx2YWQubmV0Ci9kbnMtcXVlcnk
+#Quad9 (anycast) dnssec/no-log/filter/ecs 9.9.9.11 - 149.112.112.11
+sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+#https://controld.com/free-dns
+h3://freedns.controld.com/uncensored
+tls://uncensored.freedns.controld.com
